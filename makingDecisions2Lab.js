@@ -152,8 +152,22 @@ If F: "The student is failing."
 If the letter grade is not one of the above letters, console.log 'Not an eligible grade.'
 */
 
-//Code Here
-
+switch(letterGrade){
+    case "A":
+    grade = console.log("The student is doing excellently.");
+    break;
+    case "B":
+    grade = console.log("The student is doing well.");
+    break;
+    case "C":
+    grade = console.log("The student is doing alright.");
+    break;
+    case "D":
+    grade = console.log("The student is not doing very well.");
+    break;
+    case "F":
+    grade = console.log("The student is not doing very well.");
+}
 
 
 ////////// PROBLEM 11 //////////
